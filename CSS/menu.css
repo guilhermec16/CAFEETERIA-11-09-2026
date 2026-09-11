@@ -28,11 +28,11 @@ header {
 
 footer {
     background-color: #06211b;
-    text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     width: 100%;
+    justify-content: center;
+    display: flex;
 }
 
 .Lista {
