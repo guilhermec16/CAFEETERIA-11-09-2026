@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinião - Morcego Coffee</title>
+    <link rel="stylesheet" href="../CSS/opiniao.css">
+</head>
+
+<body>
+
+    <header>
+ 
+        <h1>Morcego Coffee</h1>
+        
+        <nav>
+            <img src="../IMG/Morcegocoffee.png" class="logo" alt="Logo Morcego Coffee">
+            <a href="index.html" class="link">Início</a>
+            <a href="menu.html" class="link">Menu</a>
+            <a href="opiniao.html" class="link">Opinião</a>
+            <a href="lojas.html" class="link">Lojas</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="opiniao">
+
+            <h2>Deixe sua opinião</h2>
+            <p>Conte para nós como foi sua experiência na Morcego Coffee.</p>
+
+            <form action="" method="post">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Avaliação</legend>
+
+                    <label>
+                        <input type="radio" name="avaliacao" value="ruim">
+                        Ruim
+                    </label>
+
+                    <label>
+                        <input type="radio" name="avaliacao" value="bom">
+                        Bom
+                    </label>
+
+                    <label>
+                        <input type="radio" name="avaliacao" value="excelente">
+                        Excelente
+                    </label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>O que você consumiu?</legend>
+
+                    <label>
+                        <input type="checkbox" name="consumo" value="cafe">
+                        Café
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="consumo" value="bebida">
+                        Bebida gelada
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="consumo" value="salgado">
+                        Salgado
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="consumo" value="sobremesa">
+                        Sobremesa 
+                    </label>
+
+                </fieldset>
+
+                <label for="mensagem">Comentários ou sugestões:</label>
+                <textarea id="mensagem" name="mensagem" rows="6"></textarea>
+                <button type="submit">Enviar avaliação</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>Horário: 07h às 20h</p>
+        <p>Instagram | Facebook | WhatsApp</p>
+        <p>Contato: (79) 99999-9999</p>
+        <p>© 2026 Morcego Coffee - Todos os direitos reservados</p>
+
+    </footer>
+
+</body>
+
+</html>

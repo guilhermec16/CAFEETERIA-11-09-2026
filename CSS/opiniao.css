@@ -22,15 +22,15 @@ header {
 
 nav {
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 30px;
+    align-items: center;
 }
 
 .link {
     color: white;
-    margin: 10px;
     text-decoration: none;
+    margin: 10px;
     font-weight: bold;
 }
 
@@ -42,66 +42,62 @@ main {
     padding: 20px;
 }
 
-.hero {
+.opiniao {
     background-color: #114d3c;
     padding: 25px;
-    text-align: center;
     border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
 }
 
-.hero img {
-    width: 180px;
-    border-radius: 10px;
-}
-
-.sobre {
-    padding: 20px;
+.opiniao h2 {
     text-align: center;
 }
 
-.destaques {
+.opiniao p {
     text-align: center;
 }
 
-.Lista {
+form {
     display: flex;
-    justify-content: center;
-    gap: 25px;
-    flex-wrap: wrap;
-    padding: 20px;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.cafe,
-.capuccino,
-.bolo {
-    background-color: #114d3c;
-    margin: 10px;
+input,
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+fieldset {
+    border: 1px solid #9de5c9;
+    border-radius: 10px;
     padding: 15px;
-    border-radius: 10px;
-    width: 200px;
-    text-align: center;
 }
 
-.cafe:hover,
-.capuccino:hover,
-.bolo:hover {
-    background-color: #1b6e57;
-    box-shadow:0px 0px 15px #1a745a;
-    transition: 0.5s;
-    transform: translateY(-5px);
+fieldset label {
+    margin: 5px;
 }
 
-.cafe img,
-.capuccino img,
-.bolo img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
+button {
+    background-color: #06211b;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9de5c9;
+    color: #06211b;
 }
 
 footer {
     background-color: #06211b;
     text-align: center;
     padding: 15px;
+    margin-top: 30px;
 }
