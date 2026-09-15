@@ -117,3 +117,8 @@ footer {
     padding: 15px;
     margin-top: 30px;
 }
+
+hr {
+    color: black;
+    background-color: black;
+}
